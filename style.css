@@ -1,0 +1,169 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #202020;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: #1a1a1a;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.header-text-plus {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff1744;
+}
+
+.header-buttons button {
+  height: 40px;
+  width: 40px;
+  margin: 0 15px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.header-buttons button img {
+  height: 40px;
+  width: 40px;
+}
+
+main {
+  padding: 50px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #ccc;
+}
+
+form label {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+form select,
+form input[type=text] {
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+}
+
+form button[type=submit] {
+  font-size: 1.5rem;
+  background-color: #ff1744;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* settings page specific styles */
+.settings {
+  padding: 50px;
+}
+
+.settings h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.settings label {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.settings input[type=text] {
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.settings select {
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.settings button[type=submit] {
+  margin-top: 20px;
+}
+
+.gb {
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 2px 2px 2px 5px;
+  float: left;
+  text-decoration: none;
+  border: 2px solid #ffffff;
+  width: 135px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-shadow: 0px 0px 7px #000;
+  font-size: 0.8vw;
+}
+
+.gb img {
+  border-radius: 10px;
+  height: 100px;
+  width: 100px;
+  margin: 1px;
+}
+
+.gb span {
+  padding: 3px;
+  margin: auto;
+  display: block;
+  width: 100px;
+  height: 20px;
+  line-height: 25px;
+  overflow: hidden;
+  text-align: center;
+  white-space: nowrap;
+  text-shadow: 0px 0px 4px #000;
+}
